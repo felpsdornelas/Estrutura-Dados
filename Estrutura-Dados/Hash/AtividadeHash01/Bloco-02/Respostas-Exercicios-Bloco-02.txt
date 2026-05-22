@@ -1,0 +1,34 @@
+- RESPOSTA EXERCICIO 2.1  - 
+
+5 - Esse fenômeno é chamado de Clustering primário
+
+Ou seja:
+
+Vários elementos acabam ficando agrupados em posições consecutivas;
+quanto maior o bloco, maior a chance de novas colisões;
+o desempenho da tabela piora progressivamente.
+
+Exemplo no exercício:
+
+9 -> 10 -> 0 -> 1 -> 2 ->3
+
+Isso cria uma sequência contínua de ocupações.
+
+6 - Na sondagem quadrática, a fórmula normalmente é:
+
+h(k,i)=(h(k)+i^2)%M
+
+Em vez de testar posições consecutivas:
+
+Os saltos crescem quadraticamente;
+Os elementos ficam mais espalhados;
+reduz-se o clustering primário.
+
+Exemplo de saltos:
+
++1, +4, +9, +16...
+
+Assim:
+
+evita grandes blocos contíguos;
+melhora a distribuição das colisões.

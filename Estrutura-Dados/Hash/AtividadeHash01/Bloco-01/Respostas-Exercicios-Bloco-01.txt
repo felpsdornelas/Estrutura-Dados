@@ -1,0 +1,23 @@
+- EXERCICIO 1.2 - 
+
+1 - O fator de carga final é: λ = 1
+
+2 - A maior cadeia está no bucket 3: 10 -> 31 → 17
+Cumprimento é de 3 elementos
+
+3 - Cálculo: 38 % 7 = 3
+Ela seria inserida no: Bucket 3
+Haveria colisão, porque o bucket 3 já contém: 10 -> 31 → 17
+Ficaria: 10 → 31 → 17 → 38
+
+4 - Para essa sequência, a distribuição foi razoável, pois há vários buckets foram utilizados;
+apenas alguns tiveram colisões.
+
+Mas a função: h(k)=kmod7
+
+pode ter péssima distribuição quando várias chaves possuem o mesmo resto da divisão por 7.
+
+
+
+
+
